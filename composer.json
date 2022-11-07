@@ -1,0 +1,30 @@
+{
+    "name": "emi88/async-php",
+    "require": {
+        "php": "<=7.2.34",
+        "spatie/async": "^1.5",
+        "fich/api-rectorado": "dev-master",
+        "fich/api-infofich": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emi88\\AsyncPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emiliano",
+            "email": "emiliano.sangoi@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "ssh://extyvt@fich.unl.edu.ar/var/repos-git/api-rectorado"
+        },
+        {
+            "type": "git",
+            "url": "ssh://extyvt@fich.unl.edu.ar/var/repos-git/api-infofich"
+        }
+    ]
+}
